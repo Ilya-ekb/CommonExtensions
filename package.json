@@ -10,8 +10,6 @@
     "name": "@oPlayI"
   },
   "dependencies": {
-    "com.unity.nuget.newtonsoft-json": "3.2.1",
-    "com.codewriter.triinspector": "https://github.com/codewriter-packages/Tri-Inspector.git",
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
   }
 }
