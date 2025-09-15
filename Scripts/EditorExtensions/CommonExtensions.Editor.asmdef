@@ -1,5 +1,5 @@
 {
-    "name": "com.ilp.common-extensions",
+    "name": "CommonExtensions.Editor",
     "rootNamespace": "",
     "references": [
         "TriInspector.Editor",
