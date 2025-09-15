@@ -1,0 +1,19 @@
+{
+    "name": "CommonExtensions",
+    "rootNamespace": "",
+    "references": [
+        "TriInspector.Editor",
+        "TriInspector"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

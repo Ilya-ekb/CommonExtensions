@@ -1,0 +1,17 @@
+{
+  "name": "com.ilp.custom-uitoolkit",
+  "displayName": "Common Extensions",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "utility"
+  ],
+  "author": {
+    "name": "@oPlayI"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.codewriter.triinspector": "https://github.com/codewriter-packages/Tri-Inspector.git",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  }
+}
