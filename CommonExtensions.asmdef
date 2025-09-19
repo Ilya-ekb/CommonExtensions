@@ -2,7 +2,8 @@
     "name": "CommonExtensions",
     "rootNamespace": "",
     "references": [
-        "UniTask"
+        "UniTask",
+        "CommonExtensions.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [
