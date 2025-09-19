@@ -1,10 +1,9 @@
-﻿#if UNITY_EDITOR
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 
-namespace Utils
+namespace Utils.Editor
 {
     public static class Resources
     {
@@ -63,4 +62,3 @@ namespace Utils
         public const string ScriptableObject = "t:ScriptableObject";
     }
 }
-#endif
