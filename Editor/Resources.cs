@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace U.Editor
 {
-    public static class Resources
+    public static class Res
     {
         public static T[] FindObjectsOfType<T>(string type)
         {
