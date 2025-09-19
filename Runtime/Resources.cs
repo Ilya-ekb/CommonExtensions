@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if UNITY_EDITOR
+using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
@@ -20,7 +21,7 @@ namespace Utils
             return null;
         }
 
-#if UNITY_EDITOR
+
         public static T[] FindObjectsOfType<T>(string type)
         {
             var foundPrefabs = new List<T>();
@@ -47,7 +48,6 @@ namespace Utils
 
             return foundPrefabs.ToArray();
         }
-#endif
     }
 
     public enum LoadType
@@ -63,3 +63,4 @@ namespace Utils
         public const string ScriptableObject = "t:ScriptableObject";
     }
 }
+#endif
