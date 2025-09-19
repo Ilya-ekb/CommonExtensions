@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Utils.Editor
+namespace U.Editor
 {
     public static class Resources
     {
